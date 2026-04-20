@@ -17,14 +17,14 @@ public class Teacher {
         this.rating = rating;
     }
 
-    // Getters
+
     public int getId() { return id; }
     public String getName() { return name; }
     public String getSpecialization() { return specialization; }
     public int getExperience() { return experience; }
     public double getRating() { return rating; }
 
-    // Setters
+
     public void setId(int id) { this.id = id; }
     public void setName(String name) { this.name = name; }
     public void setSpecialization(String specialization) { this.specialization = specialization; }

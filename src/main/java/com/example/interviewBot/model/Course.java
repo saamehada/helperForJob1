@@ -17,14 +17,14 @@ public class Course {
         this.topic = topic;
     }
 
-    // Getters
+
     public int getId() { return id; }
     public String getName() { return name; }
     public String getLevel() { return level; }
     public int getDuration() { return duration; }
     public String getTopic() { return topic; }
 
-    // Setters
+
     public void setId(int id) { this.id = id; }
     public void setName(String name) { this.name = name; }
     public void setLevel(String level) { this.level = level; }
